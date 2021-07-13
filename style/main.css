@@ -1,8 +1,8 @@
 :root{
 
-    --vermelho:#e50914;
-    --preto: #141414;
-
+    --amarelo:#ffcd00;
+    --preto: #0F0F0F;
+   
 }
 
 *{
@@ -26,16 +26,26 @@ header .container{
 }
 
 header .logo{
-    color: var(--vermelho);
+    color: var(--amarelo);
     font-family: 'Arial Black', 'Times';
     font-size: 40px;
     margin-left: 5px;
 }
 
+header nav{
+    margin-right: 15px;
+}
+
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: #fff;
     margin-right: 10px;
+}
+
+header nav a i{
+    margin-right: 10px;
+    color: #ffcd00;
+    font-size: 15px;
 }
 
 header nav a:hover{
@@ -47,7 +57,7 @@ header nav a:hover{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(../img/capa-house.jpg);
     
-    height: 400px;
+    height: 500px;
     background-size: cover;
     
     display: flex;
@@ -69,7 +79,7 @@ header nav a:hover{
 
 .botao{
     background-color: rgba(0,0,0,.50);
-    border: none;
+    border: 1px solid #ffcd00;
     color: white;
 
     padding: 15px 30px;
@@ -82,6 +92,7 @@ header nav a:hover{
 
 .botao:hover{
     background-color: white;
+    border: 1px solid black;
     color: black;
 }
 
@@ -105,4 +116,23 @@ header nav a:hover{
 
 .carrossel-filme{
     margin-top: 5px;
+}
+
+h5{
+    text-align: center;
+    font-size: 15.0624px;
+    font-family: sans-serif;
+    color: #aaa;
+    margin: 0 0 14.6144px;
+    padding: 8px 0 0;
+}
+
+footer{
+    background: black;
+    color: #adadad;
+    padding: 12px 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-left: 51px;
+
 }
