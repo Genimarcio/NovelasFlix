@@ -28,7 +28,7 @@ header .container{
 header .logo{
     color: var(--amarelo);
     font-family: 'Arial Black', 'Times';
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 5px;
 }
 
@@ -100,6 +100,11 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.assista{
+    color: white;
+    text-decoration: none;
+}
+
 .container{
     margin-left: 15px;
 }
@@ -134,5 +139,21 @@ footer{
     font-size: 12px;
     font-family: sans-serif;
     padding-left: 51px;
+    height: 60px;
+}
 
+footer p{
+    margin-top: 15px;
+}
+
+footer i{
+    margin-top: -8px;
+    float: right;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+footer a{
+    color: #adadad;
 }
